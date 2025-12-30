@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier - TunisieVêtements</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Même header que index.html -->
+    <header class="main-header">
+        <!-- Copiez le header de index.html ici -->
+    </header>
+
+    <main class="cart-page container" style="padding: 40px 20px;">
+        <h1 style="margin-bottom: 30px;"><i class="fas fa-shopping-cart"></i> Votre Panier</h1>
+        
+        <div class="cart-container">
+            <div class="cart-items">
+                <!-- Exemple produit dans panier -->
+                <div class="cart-item" style="display: grid; grid-template-columns: 100px 1fr auto auto auto; gap: 20px; align-items: center; padding: 20px; background: white; margin-bottom: 20px; border-radius: 8px;">
+                    <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" 
+                         alt="Jebba" style="width: 100px; height: 100px; object-fit: cover; border-radius: 4px;">
+                    
+                    <div>
+                        <h3 style="margin-bottom: 5px;">Jebba Traditionnelle Bleue</h3>
+                        <p style="color: #7f8c8d; font-size: 14px;">Taille: M | Couleur: Bleu</p>
+                        <p style="color: #3498db; font-size: 14px;">Réf: JEB-001</p>
+                    </div>
+                    
+                    <div style="font-size: 20px; font-weight: bold; color: #e74c3c;">
+                        129.000 TND
+                    </div>
+                    
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <button style="width: 30px; height: 30px; border: 1px solid #ddd; background: white; cursor: pointer;">-</button>
+                        <span style="padding: 0 15px;">1</span>
+                        <button style="width: 30px; height: 30px; border: 1px solid #ddd; background: white; cursor: pointer;">+</button>
+                    </div>
+                    
+                    <button style="color: #e74c3c; background: none; border: none; cursor: pointer; font-size: 18px;">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Résumé commande -->
+            <div class="cart-summary" style="background: white; padding: 30px; border-radius: 8px; margin-top: 30px;">
+                <h2 style="margin-bottom: 20px;">Résumé de la commande</h2>
+                
+                <div style="margin-bottom: 20px;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <span>Sous-total:</span>
+                        <span>129.000 TND</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <span>Livraison:</span>
+                        <span>7.000 TND</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; font-size: 20px; font-weight: bold; color: #e74c3c; padding-top: 10px; border-top: 2px solid #eee;">
+                        <span>Total:</span>
+                        <span>136.000 TND</span>
+                    </div>
+                </div>
+                
+                <button style="width: 100%; background: #2ecc71; color: white; border: none; padding: 15px; font-size: 18px; font-weight: bold; border-radius: 4px; cursor: pointer; margin-bottom: 20px;">
+                    <i class="fas fa-lock"></i> Passer la commande
+                </button>
+                
+                <p style="text-align: center; color: #7f8c8d; font-size: 14px;">
+                    <i class="fas fa-lock"></i> Paiement 100% sécurisé
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <!-- Copiez le footer de index.html ici -->
+    </footer>
+</body>
+</html>
